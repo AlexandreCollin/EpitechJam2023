@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
+
+
+
     void Start()
     {
         
@@ -16,13 +19,13 @@ public class Movement : MonoBehaviour
         {
             animator.SetBool("isMoving", true);
             transform.Translate(Vector2.right * velocity * Time.deltaTime);
-            transform.localScale = new Vector3(1, 1, 1) * 0.3f;
+            transform.localScale = new Vector3(1, 1, 1) * scale;
         }
         if (Input.GetKey(KeyCode.Q))
         {
             animator.SetBool("isMoving", true);
             transform.Translate(Vector2.left * velocity * Time.deltaTime);
-            transform.localScale= new Vector3(-1, 1, 1) * 0.3f;
+            transform.localScale= new Vector3(-1, 1, 1) * scale;
         }
         if (Input.GetKey(KeyCode.Z))
         {
@@ -36,6 +39,7 @@ public class Movement : MonoBehaviour
         }
     }
 
+    public float scale = 1f;
     public float velocity = 3.0f;
     public Animator animator;
 }

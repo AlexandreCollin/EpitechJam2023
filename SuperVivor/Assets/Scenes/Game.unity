@@ -5114,6 +5114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c80a22fde8e6ff41b19991a512da680, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scale: 0.3
   velocity: 6
   animator: {fileID: 3648817280121631960}
 --- !u!4 &1773366870 stripped
