@@ -1,0 +1,906 @@
+fileFormatVersion: 2
+guid: 4b59b4ef0799e47489b32a0a1c9770b7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: superman_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1553
+        width: 65
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11dd603757f947247a930aea411d4b66
+      internalID: -1290696841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superman_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1553
+        width: 65
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1593efc29d7e440479f74662bacc9a85
+      internalID: -2082275924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superman_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1553
+        width: 65
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740a672476203904793f6dd262361037
+      internalID: -989375047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superman_3
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1553
+        width: 65
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98c030961ed5054f89a89d21e471b14
+      internalID: -640875086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superman_4
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1553
+        width: 65
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc164a69842fea242bbe9d653e19474b
+      internalID: 2120880054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superman_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1448
+        width: 70
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cf57a88cb8c044f921b802e899ce79
+      internalID: 1090377055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superman_6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1448
+        width: 57
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463a7c4ed94b3f64cb2d00018319e817
+      internalID: -6584691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superman_7
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1448
+        width: 69
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b22d36756303141a7f4c745b881300
+      internalID: 1273057870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superman_8
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1448
+        width: 65
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7700fb0d60218646b6b3e77f58b8c8e
+      internalID: -370692301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superman_9
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1448
+        width: 65
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ec9f04bfe88a747b9911f4a76be3fc
+      internalID: -1404556126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superman_10
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1448
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdbc73e4657b49468da75d90430ad0a
+      internalID: -1798212210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superman_11
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1486
+        width: 112
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de783e742467c042a2c4a2f495fa77a
+      internalID: 2011349828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superman_12
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1117
+        width: 69
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44726b8f3bf55ef4684d43aec045058a
+      internalID: -1789905931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superman_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1354
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdcb33daf230af846b3ab542c08ead97
+      internalID: -212592766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superman_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1354
+        width: 96
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41a48dacf305a246af1a006fa0071d5
+      internalID: 564198703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superman_15
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1117
+        width: 85
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac32bb85821c624fad8d67c6fccfb2c
+      internalID: 1009900045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superman_16
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1354
+        width: 97
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27086b8852f8b3458b26ff6d0347743
+      internalID: -1451178470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superman_17
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1354
+        width: 97
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6f1f3d4778fdf4f9bf8280dfa8d3fc
+      internalID: 11952113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superman_18
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1354
+        width: 118
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e67783cbaf1d449b2009779b1233b0
+      internalID: 1050373423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superman_20
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1354
+        width: 125
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d0828b3312185488178533617a35a1
+      internalID: 1527780974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superman_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1219
+        width: 79
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61999993957b5d4d9827b0a5030c036
+      internalID: -1979168744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superman_23
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1220
+        width: 79
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08102126680ea5e4da29472e3b6275fb
+      internalID: -1952527180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superman_24
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1220
+        width: 82
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2299cc3a63ecf4bbbe236416ac3e5f
+      internalID: -1919466911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superman_25
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1220
+        width: 89
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bab4c11a62bc864b95f65b210cd22c8
+      internalID: -301625291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superman_27
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1221
+        width: 121
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71620999004acbc45ae2b525f7f41fa0
+      internalID: -1268247171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superman_28
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1220
+        width: 130
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0840f11d8d1762a4c802f1d867364379
+      internalID: 1122936338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superman_30
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1221
+        width: 157
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7b770feb964184ea051a7f5f7632d3
+      internalID: -107171040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superman_33
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 1222
+        width: 137
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472f36a74f77aef48848f97150a4a99a
+      internalID: -1586707331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superman_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1116
+        width: 83
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7875e8ba25ad3034882cc430b4bd18c3
+      internalID: 1433091474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: superman_35
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1116
+        width: 105
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fcb7aee391f80b47ba790a19491762f
+      internalID: 730734703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      superman_84: 2129609578
+      superman_69: -592530287
+      superman_83: 733841407
+      superman_80: -300553029
+      superman_44: -833052470
+      superman_54: -303333883
+      superman_32: 305315662
+      superman_53: 1296938857
+      superman_142: -1172903784
+      superman_22: -1979168744
+      superman_37: -416659520
+      superman_4: 2120880054
+      superman_0: -1290696841
+      superman_13: -212592766
+      superman_149: -1183004079
+      superman_48: -907930037
+      superman_147: -1186658270
+      superman_119: 1662162914
+      superman_94: 656958156
+      superman_67: -188158386
+      superman_25: -301625291
+      superman_45: 745249167
+      superman_66: -692192707
+      superman_85: -898429459
+      superman_73: 706263067
+      superman_113: -558319560
+      superman_26: -1361531991
+      superman_126: 1541957485
+      superman_114: -376057882
+      superman_40: 2084132211
+      superman_108: -157403971
+      superman_92: -1373544732
+      superman_133: 408329031
+      superman_3: -640875086
+      superman_46: 1036387557
+      superman_118: -2096604404
+      superman_31: 1061632529
+      superman_70: 1393389203
+      superman_116: -227739877
+      superman_14: 564198703
+      superman_102: 1338636471
+      superman_15: 1009900045
+      superman_99: -233117843
+      superman_89: 28908774
+      superman_125: 744345985
+      superman_11: 2011349828
+      superman_35: 730734703
+      superman_111: -1836096343
+      superman_68: -1813723591
+      superman_82: -1805249602
+      superman_141: 2095254556
+      superman_136: 100757862
+      superman_122: 914805247
+      superman_65: -895146629
+      superman_36: 463014013
+      superman_131: 1299068420
+      superman_75: -1897623872
+      superman_77: 2073841007
+      superman_72: 546074058
+      superman_58: 1128097762
+      superman_12: -1789905931
+      superman_98: -2038954754
+      superman_152: -1450568854
+      superman_137: 1446074720
+      superman_144: -986367943
+      superman_129: -346342223
+      superman_105: -2039226988
+      superman_87: -773145592
+      superman_86: 1374125747
+      superman_57: 700284738
+      superman_63: 2064068925
+      superman_140: -102847192
+      superman_109: -1150044822
+      superman_107: 1736511143
+      superman_56: -1172275689
+      superman_41: 1307212249
+      superman_30: -107171040
+      superman_39: 1459392008
+      superman_106: 582366441
+      superman_134: -1607770911
+      superman_64: -728876811
+      superman_7: 1273057870
+      superman_130: 304854026
+      superman_74: -1563434025
+      superman_117: -1048501479
+      superman_24: -1919466911
+      superman_97: -286078172
+      superman_100: 2098567056
+      superman_5: 1090377055
+      superman_115: 1905144177
+      superman_127: 958086782
+      superman_71: 637918672
+      superman_132: -314131133
+      superman_17: 11952113
+      superman_38: 1451565778
+      superman_104: -1035469900
+      superman_123: 1392737415
+      superman_42: 612472482
+      superman_34: 1433091474
+      superman_143: -854150135
+      superman_18: 1050373423
+      superman_20: 1527780974
+      superman_88: -309339610
+      superman_8: -370692301
+      superman_10: -1798212210
+      superman_1: -2082275924
+      superman_103: 1606840857
+      superman_2: -989375047
+      superman_62: -858764152
+      superman_150: -2116578715
+      superman_16: -1451178470
+      superman_110: 608669692
+      superman_27: -1268247171
+      superman_52: -2029777784
+      superman_146: 1652891910
+      superman_50: -883043972
+      superman_55: 625170155
+      superman_23: -1952527180
+      superman_128: 741632135
+      superman_49: -863754727
+      superman_81: 1346468507
+      superman_79: -1850960885
+      superman_9: -1404556126
+      superman_47: -1509589145
+      superman_96: 1285565852
+      superman_138: 1910700152
+      superman_43: -1833240654
+      superman_6: -6584691
+      superman_93: -2026268418
+      superman_151: -385816327
+      superman_139: 245839709
+      superman_95: -1953411799
+      superman_78: 1413400405
+      superman_112: 430368851
+      superman_145: 776416510
+      superman_135: -2145099832
+      superman_124: 2003097054
+      superman_120: -1381644186
+      superman_61: -2103958229
+      superman_33: -1586707331
+      superman_21: 1654218550
+      superman_91: 1818854705
+      superman_28: 1122936338
+      superman_90: -1501779662
+      superman_51: -1844123326
+      superman_19: -1169359955
+      superman_121: -676371414
+      superman_76: 1544771761
+      superman_29: 475790928
+      superman_60: 1523480383
+      superman_101: -150586748
+      superman_59: 1528026683
+      superman_148: 90216608
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
