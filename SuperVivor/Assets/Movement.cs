@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-
-
+    public float scale = 1f;
+    public float velocity = 3.0f;
+    public Animator animator;
 
     void Start()
     {
@@ -29,7 +30,7 @@ public class Movement : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.Z))
         {
-            animator.SetBool("isMoving", true); ;
+            animator.SetBool("isMoving", true);
             transform.Translate(Vector2.up * velocity * Time.deltaTime);
         }
         if (Input.GetKey(KeyCode.S))
@@ -38,8 +39,5 @@ public class Movement : MonoBehaviour
             transform.Translate(Vector2.down * velocity * Time.deltaTime);
         }
     }
-
-    public float scale = 1f;
-    public float velocity = 3.0f;
-    public Animator animator;
 }
+
