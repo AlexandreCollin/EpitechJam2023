@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6032591976210809595}
   - component: {fileID: 6150735660464360152}
   - component: {fileID: 8280893843864387280}
+  - component: {fileID: 7065345033174568949}
   m_Layer: 0
   m_Name: Mage
   m_TagString: Enemy
@@ -171,3 +172,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &7065345033174568949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6531556697315467560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45fcbe03ecb77e24a93315edd473f6a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackRadius: 3
+  damage: 1
+  attackDelay: 2
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  playerHealth: {fileID: 0}
+  canAttack: 1

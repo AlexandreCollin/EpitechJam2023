@@ -9,6 +9,7 @@ public class Spawner : MonoBehaviour
     public GameObject[] enemyPrefabs;
     public GameObject target;
     public float delay;
+    public PlayerHealth playerHealth;
 
     void Start()
     {
@@ -23,6 +24,7 @@ public class Spawner : MonoBehaviour
         GameObject newGameObject = Instantiate(enemyPrefabs[randEnemy], spawnPoints[randSpawnPoint].position, transform.rotation);
 
         newGameObject.GetComponent<FollowCharacter>().target = target;
+        newGameObject.GetComponent<EnemyAttack>().playerHealth = playerHealth;
         Invoke("Spawn", delay);
     }
 

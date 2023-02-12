@@ -15,7 +15,6 @@ public class FollowCharacter : MonoBehaviour
         targetPosition.z = transform.position.z;
 
         Vector3 direction = (targetPosition - transform.position).normalized;
-        Debug.Log(direction);
         if (Vector3.Distance(targetPosition, transform.position) <= offset)
         {
             animator.SetBool("isAttack", true);
