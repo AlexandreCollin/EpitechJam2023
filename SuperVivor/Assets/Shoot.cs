@@ -4,24 +4,26 @@ using UnityEngine;
 
 public class Shoot : MonoBehaviour
 {
-    float speed = 5f;
+    public float speed = 5f;
     Rigidbody2D rb;
 
     Vector2 direction;
     // Start is called before the first frame update
     void Start()
     {
+        Vector3 diff = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
+        diff.Normalize();
+        float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0f, 0f, rot_z);
+
         rb = GetComponent<Rigidbody2D>();
-        direction = (Input.mousePosition - transform.position).normalized;
-        rb.velocity = new Vector2(direction.x, direction.y);
-        Destroy(gameObject, 3f);
+        rb.velocity = diff * speed;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name.Equals("ZIZI"))
+        if (collision.gameObject.tag != "Player" && collision.gameObject.tag != "Shoot")
         {
-            Debug.Log("HIT BOY");
             Destroy(gameObject);
         }
     }
