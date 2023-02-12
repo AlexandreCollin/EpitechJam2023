@@ -734,6 +734,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: superman_19
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1420
+        width: 34
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d74550e282c194ab02d49ccd99eaa8
+      internalID: -1169359955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -781,8 +802,8 @@ TextureImporter:
       superman_3: -640875086
       superman_46: 1036387557
       superman_118: -2096604404
-      superman_31: 1061632529
       superman_70: 1393389203
+      superman_31: 1061632529
       superman_116: -227739877
       superman_14: 564198703
       superman_102: 1338636471
