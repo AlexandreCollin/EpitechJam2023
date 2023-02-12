@@ -25,6 +25,10 @@ public class Shoot : MonoBehaviour
         if (collision.gameObject.tag != "Player" && collision.gameObject.tag != "Shoot" && collision.gameObject.tag != "MainCamera")
         {
             Destroy(gameObject);
+            if (collision.gameObject.tag.Equals("Enemy"))
+            {
+                Destroy(collision.gameObject);
+            }
         }
     }
 }
