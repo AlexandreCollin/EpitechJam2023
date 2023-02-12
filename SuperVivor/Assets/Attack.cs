@@ -7,6 +7,8 @@ public class Attack : MonoBehaviour
     public Animator animator;
     public GameObject bullet;
 
+    [SerializeField] private AudioSource hitSoundEffect;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +21,7 @@ public class Attack : MonoBehaviour
         if (Input.GetMouseButtonUp(0))
         {
             animator.SetTrigger("isAttack");
+            hitSoundEffect.Play();
             Instantiate(bullet, transform.position, Quaternion.identity);
         } 
     }
