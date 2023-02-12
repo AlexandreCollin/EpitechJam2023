@@ -9,6 +9,7 @@ public class PlayerHealth : MonoBehaviour
 
     public HealthBar healthBar;
 
+
     // Start is called before the first frame update
     void Start()
     {
