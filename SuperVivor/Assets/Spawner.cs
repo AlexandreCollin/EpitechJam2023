@@ -7,6 +7,7 @@ public class Spawner : MonoBehaviour
 
     public Transform[] spawnPoints;
     public GameObject[] enemyPrefabs;
+    public GameObject target;
 
     void Start()
     {
@@ -20,7 +21,9 @@ public class Spawner : MonoBehaviour
             int randEnemy = Random.Range(0, enemyPrefabs.Length);
             int randSpawnPoint = Random.Range(0, spawnPoints.Length);
 
-            Instantiate(enemyPrefabs[randEnemy], spawnPoints[randSpawnPoint].position, transform.rotation);
+            GameObject newGameObject = Instantiate(enemyPrefabs[randEnemy], spawnPoints[randSpawnPoint].position, transform.rotation);
+
+            newGameObject.GetComponent<FollowCharacter>().target = target;
         }
     }
 }
