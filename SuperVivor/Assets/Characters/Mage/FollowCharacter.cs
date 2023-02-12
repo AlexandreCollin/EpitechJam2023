@@ -5,12 +5,13 @@ using UnityEngine;
 public class FollowCharacter : MonoBehaviour
 {
     public float speed = 15f;
-    public Transform target; // The character that the object will follow
+    public GameObject target; // The character that the object will follow
     public float offset = 0.1f; // The offset distance
+    public Animator animator;
 
     void Update()
     {
-        Vector3 targetPosition = target.position;
+        Vector3 targetPosition = target.GetComponent<Transform>().position;
         targetPosition.z = transform.position.z;
 
         Vector3 direction = (targetPosition - transform.position).normalized;
@@ -32,5 +33,4 @@ public class FollowCharacter : MonoBehaviour
         }
 
     }
-    public Animator animator;
 }

@@ -8,7 +8,7 @@ public class Shoot : MonoBehaviour
     Rigidbody2D rb;
 
     Vector2 direction;
-    // Start is called before the first frame update
+
     void Start()
     {
         Vector3 diff = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
@@ -17,12 +17,12 @@ public class Shoot : MonoBehaviour
         transform.rotation = Quaternion.Euler(0f, 0f, rot_z);
 
         rb = GetComponent<Rigidbody2D>();
-        rb.velocity = diff * speed;
+        rb.velocity = diff* speed;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag != "Player" && collision.gameObject.tag != "Shoot")
+        if (collision.gameObject.tag != "Player" && collision.gameObject.tag != "Shoot" && collision.gameObject.tag != "MainCamera")
         {
             Destroy(gameObject);
         }
