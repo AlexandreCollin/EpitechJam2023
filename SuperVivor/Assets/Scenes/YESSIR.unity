@@ -3806,6 +3806,7 @@ MonoBehaviour:
   enemyPrefabs:
   - {fileID: 6531556697315467560, guid: b48d7160ae850724da7daaf896f51067, type: 3}
   target: {fileID: 1773366861}
+  delay: 0.5
 --- !u!1 &1677370620
 GameObject:
   m_ObjectHideFlags: 0

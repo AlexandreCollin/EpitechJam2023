@@ -20,7 +20,7 @@ public class Attack : MonoBehaviour
         {
             animator.SetTrigger("isAttack");
             Instantiate(bullet, transform.position, Quaternion.identity);
-        }
+        } 
     }
 
 }
